@@ -8,6 +8,15 @@ public class Forecast {
     private int date;// 20230821
     private int hours;
     private float temp;
+    private boolean skyFall;
+
+    public boolean isSkyFall() {
+        return skyFall;
+    }
+
+    public void setSkyFall(boolean skyFall) {
+        this.skyFall = skyFall;
+    }
 
     public UUID getId() {
         return id;
