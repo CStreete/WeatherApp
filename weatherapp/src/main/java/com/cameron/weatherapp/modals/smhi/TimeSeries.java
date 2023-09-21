@@ -1,4 +1,4 @@
-package com.cameron.weatherapp.modals;
+package com.cameron.weatherapp.modals.smhi;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
